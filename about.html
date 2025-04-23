@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - WatermelonGhost</title>
+    <style>
+        body {
+            font-family: "Courier New", monospace;
+            background: #000;
+            color: #33ff33;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 2px solid #33ff33;
+            padding: 20px;
+        }
+        
+        h1, h2 {
+            text-transform: uppercase;
+            text-align: center;
+        }
+        
+        .about-section {
+            margin: 30px 0;
+        }
+        
+        .team-member {
+            border: 1px dashed #33ff33;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .blink {
+            animation: blink 1s infinite;
+        }
+        
+        .timeline {
+            margin: 40px 0;
+            border-left: 2px dotted #33ff33;
+            padding-left: 20px;
+        }
+        
+        .timeline-item {
+            margin-bottom: 30px;
+            position: relative;
+        }
+        
+        .timeline-item:before {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: #33ff33;
+            left: -26px;
+            top: 5px;
+        }
+        
+        .timeline-date {
+            color: #ff00ff;
+            font-weight: bold;
+        }
+        
+        a {
+            color: #ff00ff;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            animation: rainbow 1s infinite;
+        }
+        
+        .back {
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        @keyframes blink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0.5; }
+        }
+        
+        @keyframes rainbow {
+            0% { color: red; }
+            14% { color: orange; }
+            28% { color: yellow; }
+            42% { color: green; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: violet; }
+            100% { color: red; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About WatermelonGhost</h1>
+        
+        <div class="about-section">
+            <h2>Our Story</h2>
+            <p>WatermelonGhost was born from a passion for blending nostalgic web aesthetics with cutting-edge technology. We believe in the beauty of the early internet - a time of experimentation, personal expression, and genuine connection.</p>
+            
+            <p>While we embrace the retro visual language of Web 1.0, our technological approach is thoroughly modern. We're here to help businesses navigate digital transformation with solutions that are both innovative and human-centered.</p>
+            
+            <p class="blink">We're not just another digital agency - we're digital time travelers.</p>
+        </div>
+        
+        <div class="about-section">
+            <h2>Our Philosophy</h2>
+            <p>We believe that digital experiences should be:</p>
+            <ul>
+                <li><strong>Authentic</strong> - True to your brand and values</li>
+                <li><strong>Accessible</strong> - Available to all users regardless of ability</li>
+                <li><strong>Efficient</strong> - Fast-loading and resource-conscious</li>
+                <li><strong>Human</strong> - Built for people, not algorithms</li>
+                <li><strong>Playful</strong> - Delivering joy and delight</li>
+            </ul>
+        </div>
+        
+        <div class="timeline">
+            <h2>Our Timeline</h2>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">2023</div>
+                <p>WatermelonGhost is founded with a mission to bring Web 1.0 aesthetics to modern digital solutions.</p>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">2024</div>
+                <p>Expanded services to include AI integration and custom tooling for businesses of all sizes.</p>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">2025</div>
+                <p>Currently helping clients navigate the digital landscape with retro-inspired, future-ready solutions.</p>
+            </div>
+        </div>
+        
+        <div class="about-section">
+            <h2>The Team</h2>
+            
+            <div class="team-member">
+                <h3>Founder & Creative Director</h3>
+                <p>Leading our creative vision and ensuring every project maintains the perfect balance between nostalgia and innovation.</p>
+            </div>
+            
+            <div class="team-member">
+                <h3>Technical Lead</h3>
+                <p>Transforming creative concepts into technical reality with modern development practices and a passion for clean code.</p>
+            </div>
+            
+            <div class="team-member">
+                <h3>AI Specialist</h3>
+                <p>Exploring the frontiers of artificial intelligence to create tools and solutions that enhance human capabilities.</p>
+            </div>
+        </div>
+        
+        <div class="back">
+            <a href="index.html">← Back to Homepage</a>
+        </div>
+    </div>
+</body>
+</html>

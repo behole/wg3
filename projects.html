@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - WatermelonGhost</title>
+    <style>
+        body {
+            font-family: "Courier New", monospace;
+            background: #000;
+            color: #33ff33;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 2px solid #33ff33;
+            padding: 20px;
+        }
+        
+        h1, h2, h3 {
+            text-transform: uppercase;
+            text-align: center;
+        }
+        
+        .project {
+            margin: 40px 0;
+            border: 1px dashed #33ff33;
+            padding: 20px;
+        }
+        
+        .project-meta {
+            font-size: 0.8em;
+            color: #ff00ff;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .project-image {
+            background: #111;
+            border: 1px solid #33ff33;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .project-image::after {
+            content: "[ IMAGE ]";
+            position: absolute;
+            color: #33ff33;
+        }
+        
+        .testimonial {
+            margin: 15px 0;
+            border-left: 3px solid #ff00ff;
+            padding-left: 15px;
+            font-style: italic;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .tech-tag {
+            background: #33ff33;
+            color: #000;
+            padding: 3px 8px;
+            font-size: 0.8em;
+            border-radius: 2px;
+        }
+        
+        a {
+            color: #ff00ff;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            animation: rainbow 1s infinite;
+        }
+        
+        .back {
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        @keyframes rainbow {
+            0% { color: red; }
+            14% { color: orange; }
+            28% { color: yellow; }
+            42% { color: green; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: violet; }
+            100% { color: red; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Our Projects</h1>
+        
+        <p style="text-align: center;">A selection of recent work showcasing our approach to blending retro aesthetics with modern technology.</p>
+        
+        <div class="project">
+            <h2>RetroTech E-Commerce Platform</h2>
+            <div class="project-meta">Completed in 2024 for RetroTech Industries</div>
+            
+            <div class="project-image"></div>
+            
+            <p>A comprehensive e-commerce solution for a vintage technology retailer, featuring custom inventory management, seamless payment processing, and a nostalgic Web 1.0-inspired interface.</p>
+            
+            <div class="testimonial">
+                "WatermelonGhost perfectly captured our brand essence while delivering a highly functional modern shopping experience. Our customers love the nostalgic feel!"
+            </div>
+            
+            <h3>Tech Stack</h3>
+            <div class="tech-stack">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Stripe API</span>
+                <span class="tech-tag">Custom CSS</span>
+            </div>
+        </div>
+        
+        <div class="project">
+            <h2>AI Content Generator</h2>
+            <div class="project-meta">Completed in 2024 for Digital Publishing Co.</div>
+            
+            <div class="project-image"></div>
+            
+            <p>A custom AI integration that helps content creators generate ideas, outlines, and drafts while maintaining their unique voice and style. The tool combines cutting-edge language models with an interface inspired by early word processors.</p>
+            
+            <div class="testimonial">
+                "This tool has revolutionized our content creation process. The retro interface is intuitive and distraction-free, while the AI capabilities are state-of-the-art."
+            </div>
+            
+            <h3>Tech Stack</h3>
+            <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">OpenAI API</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+            </div>
+        </div>
+        
+        <div class="project">
+            <h2>Digital Transformation Roadmap</h2>
+            <div class="project-meta">Completed in 2023 for Legacy Manufacturing Inc.</div>
+            
+            <div class="project-image"></div>
+            
+            <p>A comprehensive digital transformation strategy for a traditional manufacturing company, including custom workflow tools, employee training programs, and phased implementation plans.</p>
+            
+            <div class="testimonial">
+                "WatermelonGhost's approach made digital transformation accessible and manageable for our team. Their strategy respected our company culture while moving us firmly into the digital age."
+            </div>
+            
+            <h3>Tech Stack</h3>
+            <div class="tech-stack">
+                <span class="tech-tag">Custom Dashboard</span>
+                <span class="tech-tag">IoT Integration</span>
+                <span class="tech-tag">Process Automation</span>
+                <span class="tech-tag">Data Visualization</span>
+                <span class="tech-tag">Training Platform</span>
+            </div>
+        </div>
+        
+        <div class="back">
+            <a href="index.html">← Back to Homepage</a>
+        </div>
+    </div>
+</body>
+</html>
